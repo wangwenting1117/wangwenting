@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="s1" verbose="1" >
+
+<!-- 	<listeners> 
+		<listener class-name="com.edu.freemarker.FreemarkerTestListener" /> 
+		
+	</listeners> -->
+
+	<test name="wordpress">
+		<classes>
+			<class name="com.edu.test.wzhangxiao.DiscussionTest" />
+			<class name="com.edu.test.zwangwenting.WpTest" />
+			<class name="com.edu.test.lizixuan.Login_Test" />
+			<class name="com.edu.test.dgaoqingxin.TestCases" />
+			<class name="com.edu.test.bzhangpengyu.Login" />
+			<class name="com.edu.test.xuyingxin.Login_x" />
+
+		</classes>
+	 </test>
+	 
+	
+
+	<test name="webshop">
+		<classes>
+
+			<class name="com.edu.test.aWebShop.WebShopTest" />
+			<class name="com.edu.test.aWebShop.PurchaseTest" />
+			
+		</classes>
+	</test>
+	
+</suite>

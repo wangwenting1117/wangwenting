@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [s1]">
+  <test thread-count="5" name="wordpress(failed)">
+    <classes>
+      <class name="com.edu.test.dgaoqingxin.TestCases">
+        <methods>
+          <include name="register1" invocation-numbers="0 1 2 3 4 5 6"/>
+          <include name="editorregister"/>
+          <include name="register2" invocation-numbers="0 1 2 3 4 5 6"/>
+          <include name="authorregister"/>
+          <include name="login" invocation-numbers="0 4 5 6 8 9"/>
+          <include name="readerregister"/>
+          <include name="authorLogin"/>
+          <include name="doBeforeClass"/>
+          <include name="writerLogin"/>
+          <include name="writerregister"/>
+          <include name="register3" invocation-numbers="0 1 2 3 4 5 6"/>
+          <include name="readerLogin"/>
+          <include name="adminregister"/>
+          <include name="register" invocation-numbers="0 1 2 3 4 5 6"/>
+          <include name="editorLogin"/>
+          <include name="register4" invocation-numbers="0 1 2 3 4 5 6"/>
+          <include name="up" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 14 15"/>
+        </methods>
+      </class> <!-- com.edu.test.dgaoqingxin.TestCases -->
+      <class name="com.edu.test.bzhangpengyu.Login">
+        <methods>
+          <include name="test31"/>
+          <include name="test34"/>
+          <include name="test33"/>
+          <include name="test35"/>
+          <include name="test16" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="test15" invocation-numbers="0 2 3 4 5"/>
+          <include name="test17" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="test19"/>
+          <include name="test32"/>
+          <include name="login"/>
+          <include name="test29"/>
+          <include name="test30"/>
+          <include name="test20"/>
+          <include name="test23"/>
+          <include name="test22"/>
+          <include name="test25"/>
+          <include name="test24"/>
+          <include name="test27"/>
+          <include name="test26"/>
+          <include name="test28"/>
+          <include name="test21"/>
+          <include name="test2"/>
+          <include name="test18"/>
+          <include name="doBeforeClass"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- com.edu.test.bzhangpengyu.Login -->
+      <class name="com.edu.test.wzhangxiao.DiscussionTest">
+        <methods>
+          <include name="testFormat"/>
+          <include name="testSyndication" invocation-numbers="0 1 3 4 5"/>
+          <include name="testCategory" invocation-numbers="2"/>
+          <include name="testMediumSize2" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="testCommon"/>
+          <include name="testTimezone" invocation-numbers="2"/>
+          <include name="testNewUserDefaultRole" invocation-numbers="2"/>
+          <include name="testSiteLanguage" invocation-numbers="1 2"/>
+          <include name="testOther4" invocation-numbers="1 2"/>
+          <include name="testOther1" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="open"/>
+          <include name="testOther3" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="testMediumSize1" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="testArticle"/>
+          <include name="testBlacklist" invocation-numbers="0"/>
+          <include name="testOther5" invocation-numbers="1 2"/>
+          <include name="testRating"/>
+          <include name="testOther2" invocation-numbers="2"/>
+          <include name="testUrl" invocation-numbers="5 6"/>
+          <include name="testTagline" invocation-numbers="2"/>
+          <include name="testModeration2" invocation-numbers="0"/>
+          <include name="testModeration1" invocation-numbers="0 1 2"/>
+          <include name="testThumbnailSize2" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="testDateFormat"/>
+          <include name="testWeek" invocation-numbers="2"/>
+          <include name="testHomepage"/>
+          <include name="testThumbnailSize1" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="testEmailAddress" invocation-numbers="0 1 2 3 4 5 6 7"/>
+          <include name="testLargeSize1" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="testSiteTitle" invocation-numbers="2"/>
+          <include name="testAvatar"/>
+          <include name="testTimeFormat"/>
+          <include name="testLargeSize2" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="testPageShow" invocation-numbers="0 1 3 4 5"/>
+        </methods>
+      </class> <!-- com.edu.test.wzhangxiao.DiscussionTest -->
+      <class name="com.edu.test.lizixuan.Login_Test">
+        <methods>
+          <include name="test_status" invocation-numbers="0"/>
+          <include name="test_visibility_password"/>
+          <include name="test_time" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10"/>
+          <include name="test_visibility_private"/>
+          <include name="test_visibility_public"/>
+          <include name="test_filter" invocation-numbers="1 2 3 4 5 6 7 8 9 10 11"/>
+          <include name="doBeforeClass"/>
+          <include name="test_login1"/>
+        </methods>
+      </class> <!-- com.edu.test.lizixuan.Login_Test -->
+      <class name="com.edu.test.xuyingxin.Login_x">
+        <methods>
+          <include name="test2" invocation-numbers="0 1 2 3 4"/>
+          <include name="doBeforeClass"/>
+          <include name="test1" invocation-numbers="4"/>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- com.edu.test.xuyingxin.Login_x -->
+    </classes>
+  </test> <!-- wordpress(failed) -->
+  <test thread-count="5" name="webshop(failed)">
+    <classes>
+      <class name="com.edu.test.aWebShop.WebShopTest">
+        <methods>
+          <include name="doBeforeClass"/>
+          <include name="test30" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.edu.test.aWebShop.WebShopTest -->
+    </classes>
+  </test> <!-- webshop(failed) -->
+</suite> <!-- Failed suite [s1] -->

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49090" started-at="2019-12-17T11:51:28Z" finished-at="2019-12-17T11:52:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49090" started-at="2019-12-17T11:51:28Z" finished-at="2019-12-17T11:52:17Z">
+      <class name="com.edu.test.aWebShop.WebShopTest">
+        <test-method status="PASS" signature="doBeforeClass()[pri:0, instance:com.edu.test.aWebShop.WebShopTest@482f8f11]" name="doBeforeClass" is-config="true" duration-ms="12263" started-at="2019-12-17T19:51:28Z" finished-at="2019-12-17T19:51:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeClass -->
+        <test-method status="PASS" signature="test30(java.lang.String)[pri:0, instance:com.edu.test.aWebShop.WebShopTest@482f8f11]" name="test30" duration-ms="34910" started-at="2019-12-17T19:51:42Z" data-provider="testtxt9" finished-at="2019-12-17T19:52:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[生日快乐]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test30 -->
+      </class> <!-- com.edu.test.aWebShop.WebShopTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
