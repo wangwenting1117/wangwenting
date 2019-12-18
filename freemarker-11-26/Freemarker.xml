@@ -10,11 +10,11 @@
 	<test name="wordpress">
 		<classes>
 			<class name="com.edu.test.wzhangxiao.DiscussionTest" />
-			<class name="com.edu.test.zwangwenting.WpTest" />
+<!-- 			<class name="com.edu.test.zwangwenting.WpTest" />
 			<class name="com.edu.test.lizixuan.Login_Test" />
 			<class name="com.edu.test.dgaoqingxin.TestCases" />
 			<class name="com.edu.test.bzhangpengyu.Login" />
-			<class name="com.edu.test.xuyingxin.Login_x" />
+			<class name="com.edu.test.xuyingxin.Login_x" /> -->
 
 		</classes>
 	 </test>
