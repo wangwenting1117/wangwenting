@@ -1,0 +1,14 @@
+[FATAL] 2019-09-17 22:26:43,667 com.edu.utils.Log - the Text: 'message1' is not Present!
+[ERROR] 2019-09-17 22:26:43,672 com.edu.utils.Log - com.edu.test.SkuListTest@475530b9-TestSkuList1ÔËÐÐÊ§°Ü£¬ÐèÒª½ØÆÁ
+[FATAL] 2019-09-18 13:35:02,706 com.edu.utils.Log - the Text: 'message1' is not Present!
+[ERROR] 2019-09-18 13:35:02,711 com.edu.utils.Log - com.edu.test.SkuListTest@26be92ad-TestSkuList1ÔËÐÐÊ§°Ü
+[FATAL] 2019-09-18 13:38:26,265 com.edu.utils.Log - the Text: 'message1' is not Present!
+[ERROR] 2019-09-18 13:38:26,274 com.edu.utils.Log - com.edu.test.SkuListTest@26be92ad-TestSkuList1ÔËÐÐÊ§°Ü
+[FATAL] 2019-09-18 13:39:27,529 com.edu.utils.Log - the Text: 'message1' is not Present!
+[ERROR] 2019-09-18 13:39:27,534 com.edu.utils.Log - com.edu.test.SkuListTest@26be92ad-TestSkuList1ÔËÐÐÊ§°Ü
+[FATAL] 2019-12-12 08:30:33,538 com.edu.utils.Log - expectedValue doesn't match actualValue,actual Value is :No message available; expected Value is :success
+[ERROR] 2019-12-12 08:30:33,571 com.edu.utils.Log - com.edu.test.LoginTest@23223dd8-testLoginSuccessï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½
+[FATAL] 2019-12-12 08:30:54,558 com.edu.utils.Log - expectedValue doesn't match actualValue,actual Value is :No message available; expected Value is :success
+[ERROR] 2019-12-12 08:30:54,562 com.edu.utils.Log - com.edu.test.LoginTest@23223dd8-testLoginSuccessï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½
+[FATAL] 2019-12-12 08:39:24,674 com.edu.utils.Log - expectedValue doesn't match actualValue,actual Value is :No message available; expected Value is :success
+[FATAL] 2019-12-17 09:18:15,080 com.edu.utils.Log - expectedValue doesn't match actualValue,actual Value is :JSONObject["id"] not found.; expected Value is :success
