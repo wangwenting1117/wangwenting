@@ -15,7 +15,7 @@ import javax.mail.internet.MimeMessage;
 public class SendMail {
 	static int port = 25;
 	static String server = "smtp.126.com"; 
-	static String from = "ÍõÎÄæÃ";
+	static String from = "wangwenting";
 	static String user = "wangwenting1117@126.com";
 	static String password = "web0805";
 

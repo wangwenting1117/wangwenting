@@ -13,7 +13,6 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.DataProvider;
 
-import bsh.This;
 
 public class ExcelDataProvider {
 	public static Object[][] getTestDataByExcel(String fileName, String sheetName,int col) throws IOException {
